@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Aurora Grove</title>
+  </head>
+  <body>
+    <nav class="top-nav navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-2 fs-3 fw-light" href="">Aurora Grove</a>
+            <button class="navbar-toggler toggling-color" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasNav" aria-controls="navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offCanvasNav" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body">          
+                <ul class="navbar-nav ms-auto fs-4 fw-lighter">
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-center dark-text" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-center dark-text" aria-current="page">About</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-center dark-text" aria-current="page">Explore</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-center dark-text" aria-current="page">Contact</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-center dark-text" aria-current="page">Book</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid main-intro d-flex flex-column justify-content-center align-items-center">
+        <h3 class="text-light mb-0">MODERN CAMPING</h3>
+        <h1 class="display-1 text-light fw-semibold">AURORA GROVE</h1>
+        <p class="text-light font-monospace fs-5"><span class="auto-type"></span></p>
+        <button class="btn btn-info btn-lg px-5 text-light fw-semibold rounded-pill">BOOK NOW</button>
+    </div>
+    <div class="video-background">
+        <video autoplay loop muted plays-inline class="back-video">
+          <source src="./vids/aurora.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div class="container body-content">
+        <h1 class="text-center mt-5">YOU SHOW UP, WE PITCH THE TENT.</h1>
+        <div class="row my-5">
+            <div class="col-xl-4 text-center">
+                <img src="./pics/camping.jpg" alt="Camping" class="rounded img-fluid">
+                <h3 class="my-2 mb-3">Camp with us!</h3>
+                <p class="text-muted ms-3 mb-5">Welcome to nature's most amazing light show. This is directly underneath the aurora oval--one of the best places on earth to watch the aurora borealis, the spectacular atmospheric phenomenon better known as the Northern Lights. Late winter and early spring are the best times for the aurora, so be sure to stop in during the months of February and March!</p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <img src="./pics/exploring.jpg" alt="Exploring" class="rounded img-fluid">
+                <h3 class="my-2 mb-3">Enjoy with us!</h3>
+                <p class="text-muted ms-3 mb-5">The northern lights, or the aurora borealis, are beautiful dancing waves of light that have captivated people for millennia. But for all its beauty, this spectacular light show is a rather violent event. Energized particles from the sun slam into Earth's upper atmosphere at speeds of up to 45 million mph, but our planet's magnetic field protects us from the onslaught. </p>
+            </div>
+            <div class="col-xl-4 text-center">
+                <img src="./pics/enjoy.jpg" alt="Experience" class="rounded img-fluid">
+                <h3 class="my-2 mb-3">Experience with us!</h3>
+                <p class="text-muted ms-3 mb-5"> Witnessing the northern lights is a transformational bucket-list experience that many people wait years even a lifetime to see, since the conditions need to be perfect for this spectacular display to take place. In order to increase your chances of seeing this spectacle, you should time your trip to a new moon, and it’s important to be on alert.</p>
+            </div>
+            <h2 class="text-center">WE’VE CREATED A CAMPING EXPERIENCE THAT’S TURN-KEY AND HASSLE FREE.</h2>
+            <div class="row g-4 mt-5 ms-1">
+                <div class="col-md-6 text-center">
+                    <div class="card">
+                    <img src="./pics/winter.png" alt="Mountain" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Under the Mountains</h2>
+                        <p class="card-text ms-3">The northern lights and their counterpart in the southern hemisphere appear when highly charged solar wind particles flowing from the sun collide with air molecules in the earth’s atmosphere transferring their energy into light.</p>
+                        <button class="btn btn-outline-info btn-lg px-5">Go Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="card">
+                        <img src="./pics/dogs.png" alt="Mountain" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Under the Mountains</h2>
+                            <p class="card-text ms-3">The northern lights and their counterpart in the southern hemisphere appear when highly charged solar wind particles flowing from the sun collide with air molecules in the earth’s atmosphere transferring their energy into light.</p>
+                            <button class="btn btn-outline-info btn-lg px-5">Go Now</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
