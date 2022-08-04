@@ -1,3 +1,17 @@
+html,
+body {
+  animation: fadein 0.75s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .top-nav {
   z-index: 2;
 }
